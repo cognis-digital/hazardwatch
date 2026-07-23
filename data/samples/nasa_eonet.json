@@ -1,0 +1,296 @@
+{
+	"title": "EONET Events",
+	"description": "Natural events from EONET.",
+	"link": "https://eonet.gsfc.nasa.gov/api/v3/events",
+	"events": [
+		{
+			"id": "EONET_21437",
+			"title": "Tropical Storm Bertha",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21437",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/al0226.tcw"
+				},
+
+							{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/BERTHA.shtml"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-21T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -86, 28.5 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_21403",
+			"title": "Wildfire Big Gulch, Moffat, Colorado",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21403",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-COMFX-000934"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 1600.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-07-19T21:36:00Z",
+					"type": "Point", 
+							"coordinates": [ -107.671833, 40.681667 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_21399",
+			"title": "Hurricane Fausto",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21399",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/ep0626.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-19T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -112.1, 12.2 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-20T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -113.6, 12.5 ]
+							},
+
+							{
+							"magnitudeValue": 45.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-20T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -115.2, 12.7 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-20T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -116, 13.2 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-20T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -116.6, 14 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-21T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -117, 14.4 ]
+							},
+
+							{
+							"magnitudeValue": 70.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-21T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -117.6, 15.1 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-21T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -118.4, 16 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-21T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -119.5, 16.5 ]
+							},
+
+							{
+							"magnitudeValue": 70.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-22T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -120, 16.5 ]
+							},
+
+							{
+							"magnitudeValue": 75.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-22T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -120.4, 16.6 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_21421",
+			"title": "Wildfire BROOK, Shasta, California",
+            "description": "10 Miles NE from REDDING, CA",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21421",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-CASHU-008640"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 502.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-07-18T19:12:00Z",
+					"type": "Point", 
+							"coordinates": [ -122.197625, 40.698456 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_21404",
+			"title": "Wildfire Horse Island, Berkeley, South Carolina",
+            "description": "2 Miles W from Shullerville, SC",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21404",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-SCFMF-000363"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 550.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-07-18T17:43:00Z",
+					"type": "Point", 
+							"coordinates": [ -79.662533, 33.188917 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_21402",
+			"title": "Wildfire Ohio, Blaine, Idaho",
+            "description": "5 Miles E from Hailey, ID",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21402",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-IDEIS-000139"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 2000.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-07-18T15:52:00Z",
+					"type": "Point", 
+							"coordinates": [ -114.31795, 43.588417 ]
+							}
+
+						
+			]
+		}
+
+		]
+}

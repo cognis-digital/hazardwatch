@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hazardwatch"
+version = "0.1.0"
+description = "Self-updating public-safety hazard monitor from keyless open data (USGS/NASA/NWS) — zero-dependency, offline. Cognis Digital."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Cognis Digital LLC" }]
+keywords = ["public-safety", "hazards", "earthquakes", "wildfire", "weather-alerts", "osint", "geojson", "open-data", "cognis"]
+license = { text = "COCL-1.0" }
+dependencies = []
+
+[project.urls]
+Homepage = "https://cognis.digital"
+Repository = "https://github.com/cognis-digital/hazardwatch"
+
+[project.scripts]
+hazardwatch = "hazardwatch.cli:main"
+
+[tool.setuptools]
+packages = ["hazardwatch"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

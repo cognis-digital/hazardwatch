@@ -1,0 +1,14 @@
+{"type":"FeatureCollection","features":[
+ {"id":"urn:oid:2.49.0.1.840.0.NWS-DEMO-1","type":"Feature",
+  "geometry":{"type":"Point","coordinates":[-97.5,35.4]},
+  "properties":{"id":"NWS-DEMO-1","event":"Tornado Warning","severity":"Extreme",
+   "sent":"2026-07-22T09:40:00-05:00","headline":"Tornado Warning for Oklahoma County",
+   "areaDesc":"Oklahoma County, OK","senderName":"NWS Norman OK",
+   "web":"https://alerts.weather.gov/"}},
+ {"id":"urn:oid:2.49.0.1.840.0.NWS-DEMO-2","type":"Feature",
+  "geometry":{"type":"Point","coordinates":[-118.2,34.05]},
+  "properties":{"id":"NWS-DEMO-2","event":"Excessive Heat Warning","severity":"Severe",
+   "sent":"2026-07-22T08:00:00-07:00","headline":"Excessive Heat Warning for LA Basin",
+   "areaDesc":"Los Angeles County, CA","senderName":"NWS Los Angeles",
+   "web":"https://alerts.weather.gov/"}}
+]}

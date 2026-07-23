@@ -1,0 +1,26 @@
+name: refresh-dataset
+on:
+  schedule:
+    - cron: "0 */6 * * *"     # every 6 hours — the dataset keeps itself current
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch latest events + merge
+        run: |
+          python -m hazardwatch refresh --dataset data/hazards.json --max-age-days 30
+          python bench/run_all.py || true
+      - name: Commit if changed
+        run: |
+          git config user.name "hazardwatch-bot"
+          git config user.email "admin@cognis.digital"
+          git add data/hazards.json RESULTS.md
+          git diff --cached --quiet || git commit -m "auto-refresh hazard dataset ($(date -u +%FT%TZ))"
+          git push
